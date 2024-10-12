@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a0cbda;
+}
+
+header {
+    background-color: #8697d6;
+    
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    gap: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    
+}
+
+.destination-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.destination-card {
+    background-color: rgb(108, 170, 209);
+    border: 0px solid #2797b9;
+    margin: 10px;
+    padding: 10px;
+    width: calc(30% - 20px);
+    border-radius: 6px; /* Adjust width for three cards per row */
+}
+
+.destination-image {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-image {
+    width: 20%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+img{
+    border-radius: 5px;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#search {
+    width: 300px;
+    padding: 10px;
+}
+
+#search-button {
+    padding: 10px;
+    background-color: #6785b6;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+#search-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.cont{
+    border-radius: 6px;
+    padding: 2px;
+    margin: 2px;
+    background-color: #a0cbda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub{
+    color: rgb(71, 207, 228);
+    background-color: rgb(11, 120, 142);
+    border: 1px rgb(13, 108, 132);
+    margin: 2px;
+    border-radius: 6px;
+
+}
+.ab{
+    background-color: rgb(181, 181, 205);
+    border-radius: 6px;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    background-color: rgb(198, 232, 235);
+    height: 2px;
+}
